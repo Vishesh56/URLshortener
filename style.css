@@ -1,4 +1,10 @@
+@font-face {
+  font-family: gilroy;
+  src: url(./Gilroy-Regular.ttf);
+}
+
 * {
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -35,10 +41,6 @@ body {
   gap: 3vw;
 }
 
-/* #nav-part2 h4 {
-    color: ;
-} */
-
 #content {
   padding: 3vw;
   display: flex;
@@ -63,26 +65,37 @@ body {
 #left p {
   color: #666;
   font-weight: 500;
-  line-height: 1.5vw;
+  line-height: 2vw;
   margin-bottom: 5vh;
 }
 
 input {
   padding: 1vw 3vw 1vw 0.4vw;
-  margin-bottom: 2vw;
+  /* margin-bottom: 2vw; */
   border-radius: 5px;
   outline: none;
   border: none;
   border: 1px solid;
 }
 
+#left #part1 {
+  display: flex;
+}
+
+#left #part2 {
+  display: flex;
+}
+
 #left button {
+  cursor: pointer;
   border: 1px solid black;
   padding: 5px 20px;
   font-size: 20px;
+  font-weight: 500;
   background-color: #ff7eb4;
   border-radius: 5px;
   outline: none;
+  margin-left: 1vw;
 }
 
 #overlay {
